@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register as a Donor</title>
+        <link rel="stylesheet" type="text/css" href="css/register.css" />
+    </head>
+    <body>
+        <div class="nn">
+            <a class="tab" class="home" href="#"></a>
+            <a class="tab" class="home" href="#"></a>
+            <a class="tab" class="home" href="#"></a>
+            <a class="tab" class="home" href="index.html">Home</a>
+            <a class="tab" class="home" href="aboutus.html">Who We are</a>
+            <a class="tab" class="home" href="how.html">How it Works</a>
+            <a class="tab" class="home" href="register.html">Register as a Donor</a>
+            <a class="tab" class="home" href="request.html">Post a Request</a>
+            <a class="tab" class="home" href="#">Blog</a>
+            <a class="tab" class="home" href="contact.html">Contact</a>
+        </div>
+        <input type="Submit" value="Blood Request" class="bloodrequest">
+        <img src="images/rectanglehead.png" class="headrect">        
+        <div>
+            <img src="images/logo.png" alt="" class="logo">
+            <h2 class="head">Sacred Blood</h2>
+        </div>
+        <h4 class="wordhead">Just let’s us know that you’re willing to save lives. We’ll send you blood requests in your locality through Whatsapp.</h4>
+        <form class="register" action="" method="post">
+        
+        <p class="fn">First  Name*</p>
+        <input class="fnt" type="text" placeholder="E.g. John"name="firstname"required>
+     
+        
+        <p class="ln">Last Name </p>
+        <input class="lnt" type="text" placeholder="E.g. Doe"name="lastname">
+
+        
+        <p class="e">Email*</p>
+        <input class="et" type="email" placeholder="E.g. john@doe.com"name="email"required>
+
+
+        <p class="ph">Phone*</p>
+        <input class="pht" type="number" placeholder="E.g. +91 1234567890"name="phone"required>
+
+        <p class="bg">Blood Group*</p>
+        <select class="bgt" name="blood" required>
+            <option>Please Select an Option</option>
+            <option>A+</option>
+            <option >A-</option>
+            <option >B+</option>
+            <option >B-</option>
+            <option >O+</option>
+            <option >O-</option>
+            <option >AB+</option>
+            <option >AB-</option>
+            <option >Bombay Blood type</option>
+        </select>
+        <p class="dob">DOB*</p><br>
+        <input class="dobt" type="date" name="dob" required>
+        <p class="st">Street Address</p>
+        <input class="stt" type="text" placeholder="Eg. 42 Wallaby Way"name="street">
+        <p class="apartment">Apartment</p>
+        <input class="apartmentt" type="text"name="apart">
+        <p class="city">City</p>
+        <input class="cityt" type="text" placeholder="Eg. Chennai"name="city">
+        <p class="state">State / Province</p>
+        <input class="statet" type="text"name="state">
+        <p class="zip">Zip / Postal Code</p>
+        <input class="zipt" type="number"name="zip">
+        <p class="country">Country</p>
+        <input class="countryt" type="text"name="country">
+        <p class="qn">Have You ever tested positive for HIV?*</p>
+
+        <input class="qn1" type="radio" name="hiv" value="Yes">
+        <label class="qnl1" >Yes</label>
+        <input class="qn2" type="radio" name="hiv"value="No">
+        <label class="qnl2">No</label>
+
+        
+        <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+        <input class="ck" type="checkbox"required>
+        <p class="ckt">I have read and agree the Terms & Service and Privacy Policy</p>
+        <input class="submitbut" type="Submit" name="submit" value="Register as a donor">
+        </form>
+    </form>
+
+        <div class="rectangle"></div>
+        <div class="oval"></div>
+        <img class="world" src="images/charity-heart-silhouette-4772938 1.png" alt="">
+        <img class="mail" src="images/mail.png" alt="">
+        <p class="mailt">help@SacredBlood.in</p>
+        <p class="right">© 2023 SacredBlood</p>
+        <p class="right2">Designed & Developed by SacredBlood</p>
+    </body>
+</html>
